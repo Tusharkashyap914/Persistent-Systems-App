@@ -1,0 +1,13 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: |
+    echo Installing Node...
+    sudo apt-get install -y nodejs
+    echo Running App...
+    node index.js
+  displayName: 'Run Node App'
