@@ -1,1 +1,12 @@
 # Persistent-Systems-App
+{
+  "name": "persistent-systems-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js app for Azure pipeline demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Tushar",
+  "license": "MIT"
+}
